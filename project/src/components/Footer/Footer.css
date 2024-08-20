@@ -1,0 +1,96 @@
+.footer {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif; /* Use the font you prefer */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-section address,
+.footer-section p,
+.footer-section a {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    transform: scale(1.1);
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #cccccc;
+}
+
+.certification {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.certification img {
+    max-height: 50px;
+    object-fit: contain;
+}

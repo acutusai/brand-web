@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3e8eea9;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.Contact {
+    font-size: 20px;
+    animation: left-right 2s ease forwards;
+    
+}
+
+.name {
+    font-size: 25px;
+    font-family: 'Noe Display', 'serif';
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    animation: right-left 2s ease forwards;
+}
+
+.menu-logo {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.menu-name {
+    font-size: 20px;
+}
+
+.Contact:hover,
+.menu-name:hover {
+    color: #383434;
+}
+
+@keyframes left-right {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes right-left {
+    0% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-50px);
+        opacity: 1;
+    }
+}
