@@ -100,4 +100,7 @@
     .certification{
         display: none;
         }
+        .social-icon{
+            font-size: 1rem;
+        }
 }
