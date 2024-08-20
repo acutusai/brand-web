@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -16,7 +16,6 @@
 .Contact {
     font-size: 20px;
     animation: left-right 2s ease forwards;
-    
 }
 
 .name {
@@ -56,7 +55,6 @@
     }
 }
 
-
 @keyframes right-left {
     0% {
         transform: translateX(20px);
@@ -65,5 +63,64 @@
     100% {
         transform: translateX(-50px);
         opacity: 1;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .name {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .Contact{
+        margin-top: 14px;
+        font-size: 16px;
+    }
+
+    .menu {
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .menu-logo {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .menu-name {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Contact {
+        visibility: hidden;
+        font-size: 18px;
+
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-logo {
+        font-size: 18px;
+        visibility: hidden;
+        margin-right: 5px;
+    }
+
+    .menu-name {
+        visibility: hidden;
+        font-size: 14px;
     }
 }
