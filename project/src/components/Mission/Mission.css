@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #f3e8ee;
+    --accent-color: #ff6b6b;
+    --text-color: #333333;
+    --animation-duration: 0.8s;
+    --animation-delay: 0.2s;
+  }
+
+.mission {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #3b2727 100%);
+    /* Light background color */
+    text-align: center;
+    
+    font-family: 'Playfair Display', serif;
+}
+
+.mission-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #310d0d; /* Dark text color */
+}
+
+.mission-description {
+    font-size: 1.1rem;
+    color: #f0ebeb; /* Slightly lighter text color */
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.mission-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+}
